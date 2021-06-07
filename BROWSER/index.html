@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>WEB MAPPING</title>
+</head>
+<body style="background-color:aquamarine;">
+    <div class="hea">
+    <h1 style="font-size: 150px;">DEAD_SEC</h1>
+    <br>
+    <br>
+    <h1 style="font-size:80px;">BROWSE PRIVATELY</h1>
+    <br>
+    <br>
+    <h2 >Defend yourself against tracking and surveillance. Circumvent censorship.</h2>
+    <br>
+    <br>
+</div>
+    <div style="text-align: center;">
+    <input type="text" name="" class="query" value="" placeholder="Search Anything Privately">
+    <button class="btn">SEARCH</button>
+    </div>
+    <footer>
+    <p>
+        This browser is still in testing version.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.rvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        Why do we use it?
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        &copy;2021
+    </p>
+</footer>
+<script>
+    let query = document.querySelector('.query');
+    let btn = document.querySelector('.btn');
+    btn.onclick = function(){
+        let url = 'https://www.google.com/search?q=' + query.value;
+        window.open(url,'_self');
+
+    }
+
+
+</script>
+    
+</body>
+</html>

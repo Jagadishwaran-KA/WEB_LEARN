@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+@font-face {
+    font-family: 'HACKED';
+    src: url(HACKED.ttf);
+}
+.hea {
+    text-align: center;
+    align-items: center;
+    font-family: HACKED;
+}
+.query
+{
+    text-align: center;
+    align-items: center;
+    padding: 13px;
+    border:1px solid #ccc;
+    width: 40%;
+    outline:none;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: HACKED;
+
+}
+
+.btn:hover {
+    background-color: rgb(74, 253, 74);
+   
+}
+.btn {
+    border-radius: 30px;
+    width: 8%;
+    padding: 8px;
+    font-family: HACKED;
+
+}
+p {
+    text-align:bottom;
+    
+}
